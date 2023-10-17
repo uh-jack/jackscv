@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper/core';
 import { Navigation } from 'swiper/modules';
-import 'swiper/css';git
+import 'swiper/css'
 import { motion } from "framer-motion";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
 import Image from 'next/image';

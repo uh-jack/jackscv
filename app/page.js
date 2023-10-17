@@ -11,24 +11,8 @@ import Stuff from "./components/Stuff";
 export default function Home() {
  
   useEffect(() => {
-    window.scrollTo(0, 0);
-
-    // Add scroll event listener
-    const handleScroll = () => {
-      // If user tries to scroll above a certain limit (e.g., 0 in this case),
-      // reset the scroll position
-      if (window.scrollY < 0) {
-        window.scrollTo(0, 0);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    // Clean up the event listener when the component is unmounted
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+    window.scrollTo(0, 0)
+  })
 
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]">
