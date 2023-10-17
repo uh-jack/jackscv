@@ -15,7 +15,7 @@ const HeroSection = () => {
           className="flex flex-col justify-center text-center sm:text-left sm:w-1/2 p-4"
         >
           <h1 className="text-white mb-4 text-3xl sm:text-4xl lg:text-6xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Hello, I'm{""}</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Hello, I&apos;m{""}</span>
             <br />
             <TypeAnimation
               sequence={[
@@ -34,7 +34,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6">
-            I'm a final-year BA (Hons) Business Management student and Course Representative at Manchester Metropolitan University. I live in Manchester but am also based in Cumbria.
+            I&apos;m a final-year BA (Hons) Business Management student and Course Representative at Manchester Metropolitan University. I live in Manchester but am also based in Cumbria.
           </p>
           <div className="space-y-3 sm:space-y-0 sm:space-x-3">
             <button

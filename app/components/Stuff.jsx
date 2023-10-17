@@ -4,6 +4,7 @@ import SwiperCore, { Navigation } from 'swiper/core';
 import 'swiper/css';
 import { motion } from "framer-motion";
 import { ArrowRightIcon, ArrowLeftIcon } from "@heroicons/react/24/solid";
+import Image from 'next/image';
 
 SwiperCore.use([Navigation]);
 
@@ -38,7 +39,7 @@ export const Stuff = () => {
                         >
                             {images.map((image, index) => (
                                 <SwiperSlide key={index}>
-                                    <img src={image.src} alt={image.text} className="object-cover h-full w-full rounded-lg" />
+                                    <Image src={image.src} alt={image.text} layout="fill" objectFit="cover" className="rounded-lg" />
                                 </SwiperSlide>
                             ))}
                             <div
