@@ -39,7 +39,7 @@ export const Stuff = () => {
                         >
                             {images.map((image, index) => (
                                 <SwiperSlide key={index}>
-                                    <Image src={image.src} alt={image.text} layout="fill" objectFit="cover" className="rounded-lg" />
+                                    <img src={image.src} alt={image.text} layout="fill" objectFit="cover" className="rounded-lg" />
                                 </SwiperSlide>
                             ))}
                             <div
