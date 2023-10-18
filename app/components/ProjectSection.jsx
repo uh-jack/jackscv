@@ -10,15 +10,15 @@ const projectsData = [
         description: "jcomputers.uk is a start-up business I founded during university, its essentially a custom computer shop, you choose the parts. I'll build it for you for £50. This is a passion project derived from years of experience and its something that I am genuinely enthusiastic about.",
         image: "/images/jcomputers.gif",
         gitUrl: "/",
-        previewUrl: "www.jcomputers.uk"
+        previewUrl: "https://www.jcomputers.uk",
     },
     {
         id: 2,
         title: "Next.js Portfolio Website",
         description: "This website you're looking at right now! I built this from the ground up and it took me a very long time to make, so its something I'd like to show off here, take a look at the source code if you're interested.",
         image: "/images/nextjs.png",
-        gitUrl: "/",
-        previewUrl: "/"
+        gitUrl: "https://github.com/uh-jack/jackscv",
+        previewUrl: "https://jackscv.com"
     },
     {
         id: 3,

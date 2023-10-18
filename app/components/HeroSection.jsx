@@ -53,7 +53,7 @@ const HeroSection = () => {
               className="px-1 py-1 w-full sm:w-auto rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white"
             >
               <a
-                href="/jackscv/public/cv/Jack%20Laverick%20CV%202023.doc"
+                href="https://docs.google.com/document/d/14kAvnDUlFZDqdq_DQr8VmkCSKu6GnzlO/edit?usp=sharing&ouid=100093081648244153087&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
