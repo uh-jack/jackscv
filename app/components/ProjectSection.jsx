@@ -9,7 +9,7 @@ const projectsData = [
         title: "jcomputers",
         description: "jcomputers.uk is a start-up business I founded during university, its essentially a custom computer shop, you choose the parts. I'll build it for you for £50. This is a passion project derived from years of experience and its something that I am genuinely enthusiastic about.",
         image: "/images/jcomputers.gif",
-        gitUrl: "/",
+        gitUrl: "https://www.jcomputers.uk",
         previewUrl: "https://www.jcomputers.uk",
     },
     {
