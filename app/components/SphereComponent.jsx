@@ -51,7 +51,7 @@ const SceneComponent = () => (
         style={{ backgroundColor: 'transparent' }}
     >
         <SphereComponent />
-        <OrbitControls enableZoom={false} /> {/* Disable zoom */}
+        <OrbitControls enableZoom={false} /> 
     </Canvas>
 );
 
