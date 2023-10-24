@@ -7,6 +7,7 @@ import ProjectSection from './components/ProjectSection';
 import EmailSection from './components/EmailSection';
 import Footer from './components/Footer';
 import Stuff from "./components/Stuff";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
  
@@ -25,6 +26,7 @@ export default function Home() {
         <EmailSection />
       </div>
       <Footer />
+      <Analytics />
     </main>
   )
 }
